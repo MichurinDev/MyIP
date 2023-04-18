@@ -28,6 +28,7 @@ namespace WTFProj
 		{
 			// Копирует значение
 			Clipboard.SetText("IPv4: " + IPv4_lbl.Text + "\n" + "IPv6: " + IPv6_lbl.Text);
+			MessageBox.Show("Values is Copy!", "Complited", MessageBoxButtons.OK, MessageBoxIcon.Information);
 		}
 	}
 }
